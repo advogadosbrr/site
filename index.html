@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html><html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -11,191 +10,211 @@
       font-family: 'Poppins', sans-serif;
       background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
       color: #fff;
-    }
+    }header {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+}
 
-    header {
-      background: #000;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 30px;
-      flex-wrap: wrap;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.7);
-    }
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+  height: auto;
+  padding: 10px 0;
+  filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.3));
+  transition: all 0.3s ease;
+}
 
-    .logo {
-      display: block;
-      margin: 0 auto;
-      max-width: 250px;
-      height: auto;
-      padding: 10px 0;
-      filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.3));
-      transition: all 0.3s ease;
-    }
+.zap-header {
+  background: #25d366;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
 
-    .zap-header {
-      background: #25d366;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      font-size: 14px;
-      font-weight: bold;
-      border-radius: 5px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      text-decoration: none;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-    }
+.zap-header img {
+  width: 18px;
+  height: 18px;
+}
 
-    .zap-header img {
-      width: 18px;
-      height: 18px;
-    }
+.hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: linear-gradient(135deg, #1a1a1a, #2e2e2e);
+}
 
-    .hero {
-      text-align: center;
-      padding: 60px 20px 40px;
-      background: linear-gradient(135deg, #1a1a1a, #2e2e2e);
-    }
+.hero h1 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 20px;
+}
 
-    .hero h1 {
-      font-size: 32px;
-      color: #fff;
-      margin-bottom: 20px;
-    }
+.hero p {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
 
-    .hero p {
-      font-size: 18px;
-      color: #ccc;
-      margin-bottom: 30px;
-    }
+.btn-zap {
+  background: #25d366;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+}
 
-    .btn-zap {
-      background: #25d366;
-      color: #fff;
-      padding: 15px 25px;
-      font-size: 16px;
-      border: none;
-      border-radius: 8px;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      font-weight: bold;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.4);
-    }
+.btn-zap img {
+  width: 20px;
+  height: 20px;
+}
 
-    .btn-zap img {
-      width: 20px;
-      height: 20px;
-    }
+.bloco {
+  background-color: #232323;
+  border-radius: 12px;
+  padding: 30px 20px;
+  margin: 30px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
 
-    .sobre-nos {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
+.bloco h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 15px;
+}
 
-    .sobre-nos h2 {
-      text-align: center;
-      font-size: 26px;
-      margin-bottom: 20px;
-    }
+.bloco p {
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.6;
+}
 
-    .sobre-nos p {
-      font-size: 16px;
-      line-height: 1.6;
-      color: #ddd;
-      text-align: center;
-    }
+.sobre-nos {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
 
-    .socios {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-      margin-top: 40px;
-      flex-wrap: wrap;
-    }
+.sobre-nos h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
 
-    .socio {
-      text-align: center;
-      max-width: 200px;
-    }
+.sobre-nos p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ddd;
+  text-align: center;
+}
 
-    .socio img {
-      width: 100%;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-    }
+.socios {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
 
-    .socio h3 {
-      margin-top: 10px;
-      font-size: 18px;
-    }
+.socio {
+  text-align: center;
+  max-width: 200px;
+}
 
-    .socio p {
-      margin-top: 5px;
-      font-size: 14px;
-      color: #bbb;
-    }
+.socio img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
 
-    .float-zap {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 999;
-    }
+.socio h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
 
-    .float-zap a {
-      background: #25d366;
-      color: #fff;
-      padding: 10px 14px;
-      border-radius: 40px;
-      display: flex;
-      align-items: center;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 14px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-    }
+.socio p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #bbb;
+}
 
-    .float-zap img {
-      width: 20px;
-      height: 20px;
-      margin-right: 10px;
-    }
+.float-zap {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
 
-    @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-      }
+.float-zap a {
+  background: #25d366;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
 
-      .logo {
-        max-width: 180px;
-      }
-    }
+.float-zap img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
 
-    @media (max-width: 500px) {
-      .float-zap a span {
-        display: none;
-      }
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 
-      .float-zap a {
-        padding: 12px;
-        border-radius: 50%;
-        justify-content: center;
-        width: 48px;
-        height: 48px;
-      }
+  .logo {
+    max-width: 180px;
+  }
+}
 
-      .float-zap img {
-        margin: 0;
-      }
-    }
+@media (max-width: 500px) {
+  .float-zap a span {
+    display: none;
+  }
+
+  .float-zap a {
+    padding: 12px;
+    border-radius: 50%;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+  }
+
+  .float-zap img {
+    margin: 0;
+  }
+}
+
   </style>
 </head>
 <body>
@@ -205,21 +224,139 @@
       <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp" />
       Fale Conosco
     </a>
-  </header>
-
-  <section class="hero">
-    <h1>Precisa de um Advogado Trabalhista?</h1>
-    <p>Enfrente seus problemas trabalhistas com o apoio de especialistas. Protegemos seus direitos e buscamos soluções rápidas e eficazes para seu caso.</p>
+  </header>  <section class="hero">
+    <h1>Defesa em Casos de Acidente de Trabalho</h1>
+    <p>Assistência jurídica em casos de acidentes de trabalho, garantindo que o trabalhador tenha acesso aos benefícios devidos, como afastamento, estabilidade no emprego e indenizações por danos sofridos.</p>
     <a href="https://wa.me/5521964026591?text=Estou%20precisando%20de%20advogado" class="btn-zap" target="_blank">
       <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp" />
       CONVERSE COM UM ESPECIALISTA
     </a>
-  </section>
+<style>
+  .bloco-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 16px;
+    font-family: 'Arial', sans-serif;
+  }
 
-  <section class="sobre-nos">
+  .bloco {
+    background-color: #1f2d3d;
+    color: white;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border: 1px solid #3a4a5d;
+  }
+
+  .bloco h2 {
+    margin-top: 0;
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #ffffff;
+  }
+
+  .bloco ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+
+  .bloco ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+</style>
+
+<div class="bloco-container">
+
+  <div class="bloco">
+    <h2>Defesa dos Direitos Trabalhistas dos Funcionários</h2>
+    <ul>
+      <li>Demissão com ou sem justa causa</li>
+      <li>Reconhecimento de vínculo</li>
+      <li>Rescisão indireta</li>
+      <li>Indenização por estabilidade</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h2>Direito Trabalhista para Empresas</h2>
+    <ul>
+      <li>Defesas em processos</li>
+      <li>Consultoria jurídica</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h2>Direito do Consumidor e Responsabilidade Civil</h2>
+    <ul>
+      <li>Direito do consumidor</li>
+      <li>Revisão e elaboração de contratos</li>
+      <li>Elaboração de pareceres</li>
+      <li>Acompanhamento de ações no contencioso em geral</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h2>Direito Imobiliário</h2>
+    <ul>
+      <li>Gerenciamento da carteira de ações de imobiliárias e administradoras</li>
+      <li>Acompanhamento jurídico em condomínios edilícios</li>
+      <li>Assessoria jurídica em compra, venda e locação</li>
+      <li>Realização de cobranças judiciais e extrajudiciais</li>
+      <li>Atraso na entrega do imóvel</li>
+      <li>Vícios de construção</li>
+      <li>Regularização de imóveis</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h2>Direito de Família e Sucessório</h2>
+    <ul>
+      <li>Atuação em inventários</li>
+      <li>Ações de divórcio</li>
+      <li>Ações de reconhecimento de paternidade</li>
+      <li>Reconhecimento de união estável, dentre outras</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h2>Direito Bancário</h2>
+    <ul>
+      <li>Negociação de dívidas</li>
+      <li>Empresas endividadas</li>
+      <li>Busca e apreensão de veículos</li>
+      <li>Revisão de financiamentos</li>
+      <li>Juros abusivos</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h2>Direito Previdenciário</h2>
+    <ul>
+      <li>Aposentadoria administrativa (INSS)</li>
+      <li>Auxílio-doença</li>
+      <li>BPC/LOAS</li>
+      <li>Pensão por morte</li>
+      <li>Aposentadoria judicial</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h2>Direito à Saúde</h2>
+    <ul>
+      <li>Planos de saúde</li>
+      <li>Autorização de cirurgias</li>
+      <li>Autorização de home care</li>
+      <li>Fornecimento de medicamentos</li>
+      <li>Restituição de valores pagos</li>
+    </ul>
+  </div>
+
+</div>
+  </section>  <section class="sobre-nos">
     <h2>Sobre Nós</h2>
     <p>Atuamos com excelência nas áreas de <strong>Direito Trabalhista</strong> e <strong>Direito Civil</strong>, buscando sempre oferecer o melhor resultado aos nossos clientes. Construir soluções eficazes é o que justifica a nossa atuação.</p>
-    
     <div class="socios">
       <div class="socio">
         <img src="natasha.jpg" alt="Natasha Rezende Hastenreiter" />
@@ -237,9 +374,7 @@
         <p>Advogada</p>
       </div>
     </div>
-  </section>
-
-  <div class="float-zap">
+  </section>  <div class="float-zap">
     <a href="https://wa.me/5521964026591?text=Estou%20precisando%20de%20advogado" target="_blank">
       <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp" />
       <span>Atendimento via WhatsApp</span>
